@@ -60,3 +60,12 @@
 .pageBtn a {
   border-radius: 20px;
 }
+.desTit {
+  margin-top: 0;
+  padding-bottom: 16px;
+}
+.desTit::after {
+  top: auto;
+  bottom: 0 !important;
+  width: 100px;
+}
