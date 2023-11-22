@@ -1,0 +1,62 @@
+.caseBox {
+  margin-top: 70px;
+  box-shadow: none;
+}
+.caseList {
+  width: 1280px;
+}
+.desBox {
+  background-image: url(../images/bg-services.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.desGapBox {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 60px 0;
+  border-bottom: 1px solid rgba(24, 24, 24, 0.1);
+}
+.desGapImg {
+  width: 400px;
+}
+.desGapImg {
+  justify-content: center;
+  text-align: center;
+  color: #65beba;
+  font-size: 20px;
+  font-weight: 600;
+}
+.desGapImg > div {
+  width: 50%;
+}
+.desGapImg img {
+  display: block;
+  width: 96px;
+  margin: 0 auto;
+  margin-bottom: 14px;
+}
+.gapCont {
+  width: 740px;
+}
+.desBox h2 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.smallCont .desImgBox {
+  width: 400px;
+}
+.smallCont .desTxt {
+  width: 740px;
+}
+.desTxt,
+.desImgBox {
+  width: 560px;
+}
+.pageBtn {
+  margin-top: 30px;
+  width: 120px;
+}
+.pageBtn a {
+  border-radius: 20px;
+}
