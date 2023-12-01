@@ -446,13 +446,16 @@ em {
 .caseShareList {
   padding: 0 20px;
   flex-wrap: wrap;
-  justify-content: space-between;
   margin-top: 20px;
 }
 .caseShareItem {
-  width: 24.5%;
+  width: 312px;
   overflow: hidden;
   margin-bottom: 10px;
+  margin-right: 10px;
+}
+.caseShareItem:nth-child(4n-4){
+  margin-right: 0 !important;
 }
 .caseShareItem img {
   display: block;
@@ -650,11 +653,14 @@ a:hover {
   width: 1200px;
   margin: 0 auto;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 .caseList li {
   width: 32.6%;
   margin-bottom: 16px;
+  margin-right: 14px;
+}
+.caseList li:nth-child(3n-3){
+  margin-right: 0 !important;
 }
 .caseImg {
   position: relative;
@@ -963,21 +969,26 @@ a:hover {
   font-weight: 600;
 }
 .titBox h1 {
-  font-size: 54px;
+  font-size: 50px;
   color: #fff;
   font-weight: 600;
   line-height: 80px;
 }
+.titBox h2 {
+  font-size: 36px;
+  color: #fff;
+  font-weight: 600;
+}
 .titCont::after {
   position: absolute;
-  width: 110px;
+  width: 96px;
   height: 6px;
   content: "";
   background: #fff;
   bottom: 0;
 }
 .pageDesCont {
-  width: 1200px;
+  width: 1280px;
   margin: 0 auto;
   padding: 100px 0;
   color: #000;
