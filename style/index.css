@@ -178,3 +178,16 @@
   left: 0;
   background: #181818;
 }
+.caseList{
+  min-width: 1280px;
+}
+.caseList li{
+  margin-right: 12px;
+}
+.listGap{
+  justify-content: space-between;
+}
+.listGap .caseShareItem{
+  margin-right:0;
+  width: 24.5%;
+}
