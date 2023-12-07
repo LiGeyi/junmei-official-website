@@ -1078,6 +1078,7 @@ a:hover {
   padding-top: 10px;
   margin-bottom: 20px;
   font-family: Oswald;
+  text-align: left;
 }
 .footerCont h1::after {
   content: "";
