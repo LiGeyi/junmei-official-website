@@ -208,9 +208,11 @@ em {
 
 .footer {
   background: rgba(30, 36, 40, 1);
-  min-width: 1200px;
+  min-width: 1280px;
   color: #fff;
   letter-spacing: 0;
+  max-width: 1900px;
+  margin: 0 auto;
 }
 
 .footerTit {
@@ -1045,13 +1047,15 @@ a:hover {
 .footerCont {
   padding: 0 20px;
   flex-wrap: wrap;
+  width: 100%;
+  max-width: 1900px;
 }
 .footerLeft {
-  width: 580px;
+  width: 650px;
   margin-right: 30px;
 }
 .footerBottom p {
-  margin-bottom: 20px;
+  margin-bottom: 14px;
   line-height: 26px;
 }
 .footerBottom {
@@ -1080,7 +1084,22 @@ a:hover {
   font-family: Oswald;
   text-align: left;
 }
-.footerCont h1::after {
+.footerBottom h1{
+  color: #fff;
+}
+.footerBottom h1::after {
+  position: absolute;
+  content: "";
+  width: 44px;
+  height: 23px;
+  background-image: url(../images/triangle_white_icon.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  left: 0;
+  top: -10px;
+}
+.footerTop h1::after {
   content: "";
   position: absolute;
   width: 40px;
@@ -1095,18 +1114,18 @@ a:hover {
   background: #69bfb9;
 }
 .footerBottom h1::after {
-  background: #181818;
+  /* background: #181818; */
 }
 .relateList {
   padding-top: 10px;
   border-top: 1px solid rgba(24, 24, 24, 0.1);
 }
 .relateItem {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .relateItem img {
   margin-right: 30px;
-  width: 42px;
+  width: 50px;
 }
 .footerBottom {
   padding: 20px 30px 30px 30px;
@@ -1117,7 +1136,7 @@ a:hover {
   font-family: Oswald;
   font-weight: 600;
   padding-bottom: 6px;
-  margin-bottom: 6px;
+  margin-bottom: 3px;
 }
 .relateTit::after {
   content: "";
