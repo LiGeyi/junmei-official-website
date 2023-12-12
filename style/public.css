@@ -1064,6 +1064,9 @@ a:hover {
 .mapBox {
   flex: 1;
 }
+.mapBox a{
+  display: block;
+}
 .mapBox img {
   display: block;
   width: 100%;
