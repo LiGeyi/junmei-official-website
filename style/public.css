@@ -1153,3 +1153,29 @@ a:hover {
 .relateVal {
   font-size: 13px;
 }
+.pageDesBox {
+  background: url(../images/aboutus_bg.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.priceBtn{
+  margin-top: 10px;
+}
+.priceBtn a{
+  color: #69bfb9;
+  padding-left: 25px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.priceBtn::after{
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url(../images/triangle_icon.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  left: 0;
+}
