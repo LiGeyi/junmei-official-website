@@ -1,5 +1,5 @@
 .detailBox {
-  padding: 90px 0;
+  padding: 90px 0 40px 0;
 }
 .detailCont {
   width: 1280px;
@@ -11,8 +11,6 @@
   align-items: flex-start;
 }
 .detailCont .detailLeft {
-  flex-wrap: wrap;
-  justify-content: space-between;
   width: 900px;
 }
 .detailCont .detailLeft img {
@@ -151,4 +149,18 @@
 }
 .contactBox ul li{
   margin-bottom: 16px;
+}
+.newChangeBox{
+  width: 1280px;
+  margin: 0 auto 50px auto;
+}
+.newChangeBtn{
+  justify-content: space-between;
+  width: 900px;
+}
+.newChangeBtn a{
+  color: #656565;
+}
+.newChangeBtn a:hover{
+  color: #69bfb9;
 }

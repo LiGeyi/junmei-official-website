@@ -907,6 +907,7 @@ a:hover {
 }
 .desTxt {
   width: 540px;
+  position: relative;
 }
 .desImgBox {
   width: 540px;
