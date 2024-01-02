@@ -906,11 +906,11 @@ a:hover {
   border-bottom: 1px solid rgba(24, 24, 24, 0.1);
 }
 .desTxt {
-  width: 540px;
+  width: 560px;
   position: relative;
 }
 .desImgBox {
-  width: 540px;
+  width: 560px;
 }
 .desTip {
   font-size: 18px;
@@ -1179,4 +1179,7 @@ a:hover {
   background-position: center;
   background-repeat: no-repeat;
   left: 0;
+}
+.desInnerBox .desCont:nth-child(2n){
+  flex-direction: row-reverse;
 }
